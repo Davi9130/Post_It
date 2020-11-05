@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
+@import "~antd/dist/antd.css";
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main_div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.ico_center {
+  cursor: pointer;
+  font-size: 10vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.titulo_inicio {
+  text-align: center;
+  font-family: "Lobster-Regular";
+  padding: 15vh;
+  font-size: 5vh;
+}
+@font-face {
+  font-family: "Lobster-Regular";
+  src: local("Lobster-Regular"),
+    url(./assents/fonts/Lobster-Regular.ttf) format("truetype");
+}
+.switch_dark {
+  margin-top: 1vh;
+  float: right;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.link_post {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  margin: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ico_post {
+  padding: 1vh;
+  font-size: 5vh;
 }

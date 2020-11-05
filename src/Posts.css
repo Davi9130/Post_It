@@ -1,0 +1,11 @@
+link_post {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  margin: 30px;
+}
+.ico_post {
+  padding: 1vh;
+  font-size: 5vh;
+}

@@ -1,15 +1,15 @@
 import React from "react";
-import Home from "./Home";
+import Post from "./Post";
 import { PostStorage } from "./postStorage";
 
-const App = () => {
+const Posts = () => {
   return (
     <div>
       <PostStorage>
-        <Home />
+        <Post />
       </PostStorage>
     </div>
   );
 };
 
-export default App;
+export default Posts;
